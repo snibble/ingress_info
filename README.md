@@ -6,13 +6,13 @@ Ingress_info is a ruby gem for managing information about Niantic Labs' Ingress 
 ##Use
 
 Releases of ingress_info are provided as ruby gems at rubygem.org. Installation is as easy as:
-```
-    gem install ingress_info
+```sh
+    $ gem install ingress_info
 ```
 
 ##Changelog
 
-See [CHANGELOG.md][].
+See CHANGELOG.md.
 
 ##Contributing
 
