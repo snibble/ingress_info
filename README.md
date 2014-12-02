@@ -1,5 +1,7 @@
-[![Code Climate](https://codeclimate.com/github/snibble/ingress_info/badges/gpa.svg)](https://codeclimate.com/github/snibble/ingress_info)
-[![Test Coverage](https://codeclimate.com/github/snibble/ingress_info/badges/coverage.svg)](https://codeclimate.com/github/snibble/ingress_info)
+[![Code Climate](https://img.shields.io/codeclimate/github/snibble/ingress_info/badges/gpa.svg?style=flat)](https://codeclimate.com/github/snibble/ingress_info)
+[![Test Coverage](https://img.shields.io/codeclimate/github/snibble/ingress_info/badges/coverage.svg?style=flat)](https://codeclimate.com/github/snibble/ingress_info)
+[![Gem Version](https://badge.fury.io/rb/ingress_info.svg)](http://badge.fury.io/rb/ingress_info)
+
 Ingress_info
 ============
 
