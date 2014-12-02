@@ -26,5 +26,5 @@ Contributions are welcome. I'm still working on the finer details. For now, I'm 
 
 Ingress_info uses the MIT license. Please check the [LICENSE][] file for more details.
 
-[license]: https://github.com/snibble/ingress_info/LICENSE
-[changelog]: https://github.com/snibble/ingress_info/CHANGELOG.md
+[license]: https://github.com/snibble/ingress_info/blob/master/LICENSE
+[changelog]: https://github.com/snibble/ingress_info/blob/master/CHANGELOG.md
