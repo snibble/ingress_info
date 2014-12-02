@@ -16,7 +16,7 @@ Releases of ingress_info are provided as ruby gems at rubygem.org. Installation 
 
 ##Changelog
 
-See CHANGELOG.md.
+See [CHANGELOG][].
 
 ##Contributing
 
@@ -26,4 +26,5 @@ Contributions are welcome. I'm still working on the finer details. For now, I'm 
 
 Ingress_info uses the MIT license. Please check the [LICENSE][] file for more details.
 
-[license]: https://github.com/rubygems/rubygems.org/blob/master/MIT-LICENSE
+[license]: https://github.com/snibble/ingress_info/LICENSE
+[changelog]: https://github.com/snibble/ingress_info/CHANGELOG.md
