@@ -5,7 +5,7 @@
 Ingress_info
 ============
 
-Ingress_info is a ruby gem for managing information about Niantic Labs' Ingress ARG. In present form, it answers questions about cycles and checkpoints for game scoring. Longer-term, cell scores would be awesome, if I can figure out where to get them. I'm not particularly interested in this growing to cover things like portal infomration, agent information, etc.
+Ingress_info is a ruby gem for managing information about Niantic Labs' Ingress ARG. In present form, it answers questions about cycles and checkpoints for game scoring. Longer-term, cell scores would be awesome, if I can figure out where to get them. I'm not particularly interested in this growing to cover things like portal information, agent information, etc.
 
 ##Use
 
