@@ -11,6 +11,7 @@ class IngressCycles
     end
 
     checkPoints += ["24:00"] if checkpointTime.hour == 19
+    checkPoints.unshift("00:00") if checkpointTime.hour == 20
 
     checkPoints
   end
