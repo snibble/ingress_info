@@ -1,6 +1,6 @@
 [![Code Climate](https://img.shields.io/codeclimate/github/snibble/ingress_info/badges/gpa.svg?style=flat)](https://codeclimate.com/github/snibble/ingress_info)
-[![Test Coverage](https://img.shields.io/codeclimate/github/snibble/ingress_info/badges/coverage.svg?style=flat)](https://codeclimate.com/github/snibble/ingress_info)
-[![Gem Version](https://badge.fury.io/rb/ingress_info.svg)](http://badge.fury.io/rb/ingress_info)
+[![Gem Version](http://img.shields.io/gem/v/ingress_info.svg?style=flat)](https://rubygems.org/gems/ingress_info)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
 
 Ingress_info
 ============
