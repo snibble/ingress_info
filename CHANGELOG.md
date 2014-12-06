@@ -1,6 +1,10 @@
 #Change Log
 All notable changes to this project will be documented in this file.
 
+##1.0.2 - 2014-12-05
+###Fixed
+- Fixed the publication date associated with the gem, in case that maters...
+
 ##1.0.1 - 2014-12-05
 ###Fixed
 - Fixed a bug that prevented 00:00 checkpoint from being included in return from checkpointsForDate().
