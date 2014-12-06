@@ -1,22 +1,22 @@
 class IngressCycles
-  def self.checkpointsForDate(start_time, ref_date)
+  def self.checkpoints_for_date(start_time, ref_date)
     hours_since_start = (Time.new(ref_date.year, ref_date.month, ref_date.day, 0, 0) - start_time)/3600
-    checkpointTime = Time.new(ref_date.year, ref_date.month, ref_date.day, 5 - (hours_since_start % 5), 0)
+    checkpoint_time = Time.new(ref_date.year, ref_date.month, ref_date.day, 5 - (hours_since_start % 5), 0)
     
-    checkPoints = [checkpointTime.strftime("%H:%M")]
+    checkpoints = [checkpoint_time]
     
-    while checkpointTime.hour < 19 do
-      checkpointTime += 5*60*60
-      checkPoints += [checkpointTime.strftime("%H:%M")]
+    while checkpoint_time.hour < 19 do
+      checkpoint_time += 5*60*60
+      checkpoints << checkpoint_time
     end
 
-    checkPoints += ["24:00"] if checkpointTime.hour == 19
-    checkPoints.unshift("00:00") if checkpointTime.hour == 20
+    checkpoints << Time.new(ref_date.year, ref_date.month, ref_date.day, 24, 00) if checkpoint_time.hour == 19
+    checkpoints.unshift(Time.new(ref_date.year, ref_date.month, ref_date.day, 00, 00)) if checkpoint_time.hour == 20
 
-    checkPoints
+    checkpoints
   end
 
-  def self.cycleEndTime(start_time)
+  def self.cycle_end_time(start_time)
     start_time + 35*5*60*60
   end
 end

@@ -8,6 +8,7 @@ GEM
       simplecov (>= 0.7.1, < 1.0.0)
     docile (1.1.5)
     ffi (1.9.6)
+    minitest (5.4.3)
     multi_json (1.10.1)
     rake (10.4.2)
     simplecov (0.9.1)
@@ -25,4 +26,5 @@ DEPENDENCIES
   ZenTest
   autotest-fsevent
   codeclimate-test-reporter
+  minitest
   rake
