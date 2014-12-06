@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ingress_info'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2014-11-30'
   s.summary     = "Niantic Labs Ingress Information"
   s.description = "Information about Ingress cycles and checkpoints"
