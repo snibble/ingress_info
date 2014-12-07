@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 ##Unreleased
 ###Changed
 - Changed method names to match snake case ruby convention.
-- Changed return types of methods to be timestamps rather than strings. Consumer will now be responsible to stringifying if needed. But, consume can now do time/date math on return values more easily. (This is not backwards compatible and will come with a major version number change.)
+- Changed return types of methods to be timestamps rather than strings. Consumer will now be responsible to stringifying if needed. But, consumer can now do time/date math on return values more easily. (This is not backwards compatible and will come with a major version number change.)
 
 ##1.0.2 - 2014-12-05
 ###Fixed
