@@ -1,7 +1,6 @@
 class IngressCycles
   def self.checkpoints_for_date(start_time, ref_date)
-    hours_since_start = (Time.new(ref_date.year, ref_date.month, ref_date.day, 0, 0) - start_time)/3600
-    checkpoint_time = Time.new(ref_date.year, ref_date.month, ref_date.day, 5 - (hours_since_start % 5), 0)
+    checkpoint_time = calculate_first_checkpoint_time(start_time, ref_date)
     
     checkpoints = [checkpoint_time]
     
@@ -18,5 +17,13 @@ class IngressCycles
 
   def self.cycle_end_time(start_time)
     start_time + 35*5*60*60
+  end
+
+  def self.calculate_hours_since_cycle_start(start_time, ref_date)
+    (Time.new(ref_date.year, ref_date.month, ref_date.day, 0, 0) - start_time)/3600
+  end
+
+  def self.calculate_first_checkpoint_time(start_time, ref_date)
+    Time.new(ref_date.year, ref_date.month, ref_date.day, 5 - (calculate_hours_since_cycle_start(start_time, ref_date) % 5), 0)
   end
 end
